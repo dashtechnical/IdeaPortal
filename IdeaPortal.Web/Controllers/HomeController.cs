@@ -26,5 +26,19 @@ namespace IdeaPortal.Web.Controllers
 
             return View();
         }
+
+        public ActionResult Privacy()
+        {
+            ViewBag.Message = "Your privacy page";
+
+            return View();
+        }
+
+        public ActionResult Terms()
+        {
+            ViewBag.Message = "Your terms of service page";
+
+            return View();
+        }
     }
 }

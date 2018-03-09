@@ -50,13 +50,13 @@ namespace IdeaPortal.Web
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: "aiDLbONCsMnE2kRwhTPA95mi4",
+               consumerSecret: "3Fcxt3Hl5u7FQxSbALyZsHani1bfoEN3L8CEFNJR1Q4IGJsNWO");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1823253367973081",
+               appSecret: "80b6fc1f8c7e9f985d9e39246bc78684");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
